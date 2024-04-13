@@ -48,7 +48,7 @@ html{
    color: var(--socuro);
   }
   nav{
-   font-weight: 60rem;
+   font-weight: 600px;
   }
   
   .navegacion-principal a:hover{
