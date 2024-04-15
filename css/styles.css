@@ -1,0 +1,65 @@
+:root{
+
+   --principal: #29353D;
+   --socuro: #212121;
+   --logo: #00ABFB;
+
+}
+/*globales*/
+html{
+    font-size: 62.5%; /* srive para que la paguina se adapte a mas dispositivos*/
+   /*sirve para el pading no tome valores que deben*/
+    box-sizing: border-box;   
+ }
+
+ /*selector universal y les coloca lo que lleva dentro y si pones un tamaño de 400px y un pading de 20 el tamaño no sera de 440 
+ si no que seria de 360 porque el padig se adapta a el margen que se le esta dando y no al contrario*/
+ *,*:before,*:after{
+    box-sizing: inherit;
+  }
+  body{
+   font-family: "Krub", sans-serif;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  header{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   justify-content: space-between;
+   background-color: var(--principal);
+   padding: 2rem 2rem;
+   align-items: center;
+  }
+
+  .logo{
+   display: flex;
+   align-items: center;
+  }
+
+  .logo img{
+   height: 10rem;
+  }
+
+  a{
+   font-weight: 600;
+   text-decoration: none;
+   color: var(--socuro);
+  }
+  nav{
+   font-weight: 600px;
+  }
+  
+  .navegacion-principal a:hover{
+   color: white;
+   background-color: var(--logo);
+  }
+
+  @media (min-width: 400px) {
+   
+   header{
+      flex-direction: row;
+   }
+
+  }
