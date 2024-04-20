@@ -133,6 +133,7 @@ nav {
 
 .contenedor h2{
    text-align: center;
+   padding-top: 10rem;
 }
 
 .sombra {
@@ -170,3 +171,41 @@ box-shadow: -14px 11px 32px -3px rgba(0,0,0,0.54);
 /*productos*/
 
 
+.tamaño {
+   width: 30rem;
+   padding-bottom: 1rem;
+   
+}
+
+
+.productos_dom{
+   padding-top: 10rem;
+   max-width: 120rem;
+   margin: 0 auto;
+   text-align: center;
+   text-transform: uppercase;
+   
+   
+}
+
+.grid{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 2rem;
+   
+}
+.producto{
+
+}
+
+.producto_img{
+
+}
+
+.prducto_informacion{
+
+}
+
+.producto_servicio{
+
+}
